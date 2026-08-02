@@ -1,6 +1,6 @@
 # Simple Calculator Application
 
-print("===== Simple Calculator =====")
+print("===== Advanced Calculator =====")
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
@@ -11,7 +11,7 @@ print("2. Subtraction (-)")
 print("3. Multiplication (*)")
 print("4. Division (/)")
 
-choice = input("Enter your choice (1-4): ")
+choice = input("Enter your choice (1-5): ")
 
 if choice == "1":
     print("Result =", num1 + num2)
