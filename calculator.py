@@ -10,6 +10,7 @@ print("1. Addition (+)")
 print("2. Subtraction (-)")
 print("3. Multiplication (*)")
 print("4. Division (/)")
+print("5. Exponent (**)")
 
 choice = input("Enter your choice (1-5): ")
 
@@ -27,6 +28,8 @@ elif choice == "4":
         print("Result =", num1 / num2)
     else:
         print("Error! Division by zero is not allowed.")
+elif choice == "5":
+    print("Result =", num1 ** num2)
 
 else:
     print("Invalid choice!")
